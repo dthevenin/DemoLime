@@ -1,0 +1,60 @@
+.application {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  position:absolute;
+}
+
+.ABView
+{
+  position: absolute;
+  overflow: hidden;
+}
+
+.default
+{
+  visibility: visible;
+  width: 100%;
+  height: 100%;
+}
+
+.focus
+{
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.active
+{
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+}.ABTextLabel {
+  display: block;
+  word-wrap: break-word;
+}
+.ABNavTextLabel {
+  display: block;
+}
+
+.ABNavTextLabel > p
+{
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+}.ABNavImageView {
+}
+.ABImageView {
+}
